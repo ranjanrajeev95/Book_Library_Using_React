@@ -1,0 +1,80 @@
+/* app styles */
+.App {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  background: #4c2a4c;
+  color: #eee;
+  width: 90%;
+}
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d;
+}
+.navbar h1 {
+  margin: 10px 0;
+}
+
+.book-list {
+  margin: 20px;
+}
+
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list ul li {
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.book-list ul li:hover {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.book-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author{
+  font-weight: 300;
+  color: #ddd;
+  font-size: 0.9em;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  background: #3c1f3c;
+  box-sizing: border-box;
+  margin: 6px 0;
+  padding: 5px;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input[type="submit"]{
+  margin: 10px auto;
+  font-size: 18px;
+  padding: 7px 20px;
+  display: block;
+
+}
+input[type="submit"]:hover{
+  background: #6d3d6d;
+  color: #eee;
+  border-color: #fff;
+}
